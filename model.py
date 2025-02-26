@@ -2,7 +2,7 @@ import re
 
 def predict_complexity(signal_expression):
     """
-    Basic heuristic to estimate the combinational complexity of a signal.
+      to estimate the combinational complexity of a signal.
     - Counts the number of logic gates/operators in the expression.
     """
     operations = ["&", "|", "^", "~"]  # AND, OR, XOR, NOT
